@@ -1,5 +1,10 @@
-function log() {
-  console.log(greeting);
-  var greeting = 'Hello!';
+var x = 1;
+
+function myFunction(){
+  y = 2;
+  console.log(x);
 }
-log();
+
+console.log(y); // Error!
+
+console.log(x); // 1
